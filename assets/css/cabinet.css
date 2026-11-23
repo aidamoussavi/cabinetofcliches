@@ -359,3 +359,11 @@ body {
         letter-spacing: 0.03em;
     }
 }
+#intro > .title {
+    box-shadow: none;
+}
+
+#intro > .title::before,
+#intro > .title::after {
+    display: none;
+}
